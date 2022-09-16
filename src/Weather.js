@@ -4,37 +4,37 @@ import "./index.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <div class="container">
+      <div className="container">
         <br />
         <h1 id="city">San Diego</h1>
         <h2>Today</h2>
         <form id="search">
-          <div class="row">
-            <div class="col-8">
+          <div className="row">
+            <div className="col-8">
               <input
                 type="search"
-                placeholder="Search for New City"
+                placeHolder="Search for New City"
                 id="search-input"
                 class="form-control"
-                autocomplete="off"
+                autoComplete="off"
               />
             </div>
-            <div class="col-2">
+            <div className="col-2">
               <input type="submit" value="Search" id="search-btn" />
             </div>
           </div>
         </form>
-        <div class="col-2">
+        <div className="col-2">
           <button id="current-location">Current Location</button>
         </div>
       </div>
-      <div class="today">
+      <div className="today">
         <img src="" alt="Clear" id="icon" />
         <div id="sunny">Sunny</div>
-        <div class="temp-today" id="temperature">
+        <div className="temp-today" id="temperature">
           72
         </div>
-        <span class="units">
+        <span className="units">
           <a href="#" id="celsius-link">
             °C
           </a>{" "}
@@ -59,7 +59,7 @@ export default function Weather() {
       <h3>5 Day Forecast</h3>
       <hr />
       <div>
-        <div class="weather-forecast" id="forecast"></div>
+        <div className="weather-forecast" id="forecast"></div>
       </div>
       <p></p>
       <div>
